@@ -1,0 +1,164 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
+
+/* Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gradiente: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% ) no-repeat fixed center;
+
+    --textos:'WindSong';
+}
+
+body {
+    background: var(--gradiente);
+    background-size: cover;
+    font-family: var(--textos);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 25px 0 0 0;
+}
+
+.intro{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 25px;
+
+}
+
+.img-container h1{
+    font-size: 2.2rem;
+    margin-right: 15px;
+}
+
+.img-container img{
+    width: 20%;
+}
+
+.img-container img:nth-child(1){
+    transform: rotateY(180deg);
+}
+
+.fecha{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.salon{
+    padding: 20px 0 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.salon h1{
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.fotos-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fotos-container img{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.mapa iframe{
+    border-radius: 20px;
+    box-shadow: black 0 0 15px;
+}
+
+.vestimenta{
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.wsp-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.wsp-link{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.238) 0 0 10px;
+    position: absolute;
+}
+
+.wsp-link:hover{
+    background-color: rgb(243, 190, 240);
+    transition-duration:0.5s ;
+    font-size: x-large;
+}
+.regalos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    row-gap: 20px;
+}
+.regalos h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 0 25px ;
+    font-size: x-large;
+}
+
+.regalos strong{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: rgb(231, 98, 224);
+    font-size: x-large;
+}
+
+.contador{
+    padding: 15px 0 35px 0;
+}
+
+.contador h2{
+    font-size: 2rem;
+    text-align: center;
+}
