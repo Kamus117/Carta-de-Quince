@@ -1,6 +1,6 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 
 /* Normalize */
@@ -10,10 +10,24 @@
     box-sizing: border-box;
 }
 
+/* Variables */
 :root{
     --gradiente: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% ) no-repeat fixed center;
 
-    --textos:'WindSong';
+    --textos:'Nanum Myeongjo';
+}
+
+/* Animaciones */
+@keyframes titulo{
+    0%{
+        letter-spacing: 2rem;
+    }
+/*     50%{
+        letter-spacing: 1rem;
+    }
+    100%{
+        letter-spacing: normal;
+    } */
 }
 
 body {
@@ -46,6 +60,9 @@ header{
 .img-container h1{
     font-size: 2.2rem;
     margin-right: 15px;
+    animation-name: titulo;
+    animation-duration: 2.5s;
+
 }
 
 .img-container img{
@@ -143,7 +160,7 @@ header{
     text-align: center;
     font-weight: bold;
     padding: 0 25px ;
-    font-size: x-large;
+    font-size: large;
 }
 
 .regalos strong{
