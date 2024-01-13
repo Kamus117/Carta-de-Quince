@@ -1,6 +1,6 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 /* Normalize */
@@ -14,7 +14,7 @@
 :root{
     --gradiente: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% ) no-repeat fixed center;
 
-    --textos:'Nanum Myeongjo';
+    --textos:'Playfair';
 }
 
 /* Animaciones */
